@@ -14,7 +14,7 @@ const HeroBottom = () => {
           Your best self is waiting.
         </p>
 
-        <div className="flex justify-center items-center gap-4 flex-wrap">
+        {/* <div className="flex justify-center items-center gap-4 flex-wrap">
           <Button className="bg-white text-black hover:bg-gray-200 px-6 py-3 text-lg font-semibold shadow-md">
             Join Now - Free Trial <Star className="ml-2 w-4 h-4" />
           </Button>
@@ -22,7 +22,7 @@ const HeroBottom = () => {
           <Button  className="text-white border-white hover:bg-white hover:text-red-600 px-6 py-3 text-lg font-semibold">
             Contact Us
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
