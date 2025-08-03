@@ -2,6 +2,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
 
 interface User {
   _id: string;
@@ -22,7 +23,7 @@ const Users: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
 
   const fetchUsers = () => {
-    fetch("http://localhost:5000/api/auth/users")
+    fetch(`${baseUrl}/auth/users`)
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch users");
         return res.json();
@@ -48,7 +49,7 @@ const Users: React.FC = () => {
     if (!confirmDelete) return;
 
     try {
-      const res = await fetch(`http://localhost:5000/api/auth/delete/${id}`, {
+      const res = await fetch(`${baseUrl}/auth/delete/${id}`, {
         method: "DELETE",
       });
       if (!res.ok) throw new Error("Failed to delete user");
