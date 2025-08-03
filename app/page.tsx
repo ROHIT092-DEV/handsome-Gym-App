@@ -1,5 +1,6 @@
 
 import Footer from "@/components/Footer";
+import GymJoinRequest from "@/components/GymJoinRequest";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import HeroBottom from "@/components/HeroBottom";
@@ -13,7 +14,9 @@ export default function Home() {
   return (
     <>
    <Hero />
+   <GymJoinRequest />
    <InstrumementCount />
+
    <Plans />
    <HeroBottom />
    <Footer />
