@@ -10,7 +10,7 @@ const HeroBottom = () => {
           Ready to Start Your Fitness Journey?
         </h1>
         <p className="text-lg md:text-xl mb-6">
-          Join thousands of members who have transformed their lives at FitZone. <br />
+          Join 50+ of members who have transformed their lives at FitZone. <br />
           Your best self is waiting.
         </p>
 
@@ -19,7 +19,7 @@ const HeroBottom = () => {
             Join Now - Free Trial <Star className="ml-2 w-4 h-4" />
           </Button>
 
-          <Button variant="outline" className="text-white border-white hover:bg-white hover:text-red-600 px-6 py-3 text-lg font-semibold">
+          <Button  className="text-white border-white hover:bg-white hover:text-red-600 px-6 py-3 text-lg font-semibold">
             Contact Us
           </Button>
         </div>

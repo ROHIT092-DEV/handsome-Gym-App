@@ -9,22 +9,22 @@ export default function GymStats() {
   const stats = [
     {
       icon: <Users className="w-10 h-10 text-red-500" />,
-      value: "2,500+",
+      value: "50+",
       label: "Active Members",
     },
     {
       icon: <Dumbbell className="w-10 h-10 text-red-500" />,
-      value: "300+",
+      value: "70+",
       label: "Equipment Pieces",
     },
     {
       icon: <Trophy className="w-10 h-10 text-red-500" />,
-      value: "1,200+",
+      value: "20+",
       label: "Success Stories",
     },
     {
       icon: <Clock className="w-10 h-10 text-red-500" />,
-      value: "24/7",
+      value: "24/6",
       label: "Operating Hours",
     },
   ];

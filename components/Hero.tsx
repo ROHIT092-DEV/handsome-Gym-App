@@ -14,7 +14,7 @@ function Hero() {
               </h1>
               <p className="text-lg md:text-xl text-gray-300">
                 Join{" "}
-                <span className="text-indigo-400 font-semibold">FitZone</span>{" "}
+                <span className="text-indigo-400 font-semibold">FitNess GYM</span>{" "}
                 and discover a world-class fitness experience with
                 state-of-the-art equipment, expert trainers, and a supportive
                 community.
@@ -22,13 +22,13 @@ function Hero() {
               <div className="flex flex-col md:flex-row items-center md:items-start gap-4 pt-2">
                 <Link
                   href="/register"
-                  className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-full shadow-lg transition duration-300"
+                  className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-md shadow-lg transition duration-300"
                 >
                   Start Your Journey
                 </Link>
                 <Link
                   href="/video"
-                  className="text-indigo-400 hover:underline font-medium text-lg"
+                  className="text-indigo-400 hover:underline hover:underline-offset-4 font-medium text-lg"
                 >
                   ▶ Watch Video
                 </Link>

@@ -10,7 +10,7 @@ export default function Footer() {
         <div>
           <Link href="/" className="flex items-center space-x-2">
             <Image src={logo} alt="FitZone" width={36} height={36} />
-            <span className="text-xl font-bold text-gray-800">FitZone</span>
+            <span className="text-xl font-bold text-gray-800">FitNess App</span>
           </Link>
           <p className="mt-4 text-sm text-gray-600">
             Your premier destination for fitness excellence. Transform your body and mind with our
