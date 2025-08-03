@@ -52,7 +52,7 @@ function UserManagement() {
 
     const phoneRegex = /^[0-9]{10}$/;
     if (!phoneRegex.test(phoneNumber)) {
-      return setError("Phone number must be 10 digits");
+      return setError("Phone number must be 10 digit");
     }
 
     setError(""); // Clear errors
