@@ -4,6 +4,7 @@
 import React, { useEffect, useState } from "react";
 const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
 
+
 interface User {
   _id: string;
   firstName: string;
@@ -49,7 +50,7 @@ const Users: React.FC = () => {
     if (!confirmDelete) return;
 
     try {
-      const res = await fetch(`${baseUrl}/auth/delete/${id}`, {
+      const res = await fetch(`${baseUrl}/auth/users/${id}`, {
         method: "DELETE",
       });
       if (!res.ok) throw new Error("Failed to delete user");
